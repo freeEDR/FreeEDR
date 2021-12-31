@@ -23,11 +23,11 @@ The host running Linux & MacOS needs a sudoer account, or Windows 10 (Home or be
 ## Installation Steps
 **Use a shell on Linux (tested working on Ubuntu-SERVER 16-20) & MacOS**, run the following (**DO NOT preceed** with `sudo`):
 
-`curl -L https://github.com/jymcheong/FreeEDR/tarball/main | tar xz && mv jym* freeEDR && cd freeEDR && ./install.sh`
+`curl -L https://github.com/freeEDR/FreeEDR/tarball/main | tar xz && mv free* freeEDR && cd freeEDR && ./install.sh`
 
 *For **Windows 10 with [WSL2 (Home) / HyperV (Pro & beyond) & Docker installed](https://docs.docker.com/desktop/windows/wsl/)***, start a Powershell session, copy & run the following:
 
-`$tmp = New-TemporaryFile | Rename-Item -NewName { $_ -replace 'tmp$', 'zip' } -PassThru; Invoke-WebRequest -OutFile $tmp https://github.com/jymcheong/freeEDR/zipball/main; $tmp | Expand-Archive -DestinationPath .\ ; Move-Item jym* FreeEDR ; $tmp | Remove-Item; cd FreeEDR; get-content -raw .\install.ps1 | iex` 
+`$tmp = New-TemporaryFile | Rename-Item -NewName { $_ -replace 'tmp$', 'zip' } -PassThru; Invoke-WebRequest -OutFile $tmp https://github.com/freeEDR/freeEDR/zipball/main; $tmp | Expand-Archive -DestinationPath .\ ; Move-Item jym* FreeEDR ; $tmp | Remove-Item; cd FreeEDR; get-content -raw .\install.ps1 | iex` 
 
 The respective installation script will setup an .env file necessary for FreeEDR backend containers to run.
 
