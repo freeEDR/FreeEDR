@@ -37,7 +37,7 @@ Installation script will prompt IP selection & create `.env` file for backend co
 
 ### Select IP Addresses for SFTP Receiver & Monitoring Frontends
 
-The installation script *will prompt you to select addresses* for the two stated purposes: (1) receiving events & (2) access web interfaces. 
+Select addresses for: (1) receiving events via SFTP & (2) access web interfaces. 
 
 - Windows endpoints host-agents upload events to the SFTP Receiver via that selected SFTP IP address
 - FRONTEND IP address to access OrientDB (via port 2480) & Alert monitoring web interface (via port 8080)
