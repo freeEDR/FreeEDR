@@ -17,7 +17,7 @@ The host running Linux & MacOS needs a sudoer account, or Windows 10 (Home or be
 
 * i5 or better (1 v)CPU, min. 8GB RAM & 100GB SSD disk for host
 * VM needs at least 1 vCPU, 4GB RAM & 10GB storage
-* Host agents tested on Win10 & Server 2012R2 to 2019 64bit (we monitor these 'endpoints')
+* Host agents tested on Win10 64bit & Server 2012R2 to 2019 64bit (we monitor these 'endpoints')
 * Endpoints needs to access backend TCP port 2222 & 8888 (check for any firewall in-between)
 
 ## Installation Steps
