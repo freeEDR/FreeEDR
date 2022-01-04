@@ -33,7 +33,7 @@ curl -L https://github.com/freeEDR/FreeEDR/tarball/main | tar xz && mv free* fre
 $tmp = New-TemporaryFile | Rename-Item -NewName { $_ -replace 'tmp$', 'zip' } -PassThru; Invoke-WebRequest -OutFile $tmp https://github.com/freeEDR/freeEDR/zipball/main; $tmp | Expand-Archive -DestinationPath .\ ; Move-Item freeEDR* FreeEDR ; $tmp | Remove-Item; cd FreeEDR; get-content -raw .\install.ps1 | iex
 ```
 
-The respective installation script will setup an .env file necessary for FreeEDR backend containers to run.
+Installation script will prompt IP selection & create `.env` file for backend containers to run.
 
 ### Select IP Addresses for SFTP Receiver & Monitoring Frontends
 
