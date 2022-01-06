@@ -5,7 +5,7 @@ Click thumbnail below to watch:
 
 # Getting Started
 
-**Please setup docker with official docker installers for OS first (ensure docker-compose works!).** [Installation script](#installation-steps) will prompt for selection of 2 IP addresses for SFTP & FRONTEND access.
+**Please setup docker with official docker installers for OS first (ensure docker-compose works!).** [Installation script](#installation-steps) will prompt for selection of 2 IP addresses for SFTP & FRONTEND access. Full wiki @ [Notion](https://endpointdefense.notion.site/Wiki-64f1ab38c1e8447e89e853766781242f)!
 
 ![directInstallation](directInstallation.png)
 
